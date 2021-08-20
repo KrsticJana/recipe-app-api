@@ -13,7 +13,7 @@ INGREDIENTS_URL = reverse('recipe:ingredient-list')
 
 
 class PublicIngredientsApiTests(TestCase):
-    """Test the public available uingredients API"""
+    """Test the public available ingredients API"""
 
     def setUp(self):
         self.client = APIClient()
